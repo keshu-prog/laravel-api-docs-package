@@ -1,0 +1,21 @@
+{
+  "name": "kmapidocvendor/laravel-api-docs",
+  "description": "A Laravel package for generating API documentation",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "KmApiDocVendor\\LaravelApiDocs\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "KmApiDocVendor\\LaravelApiDocs\\ApiDocsServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
+  }
+}
